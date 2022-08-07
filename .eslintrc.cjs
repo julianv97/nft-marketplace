@@ -24,6 +24,10 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/no-unstable-nested-components': 'off',
     'react/require-default-props': 'off',
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': ['error'],
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['error'],
     quotes: [2, 'single', { avoidEscape: true }],
     'react/function-component-definition': [
       2,
