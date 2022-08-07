@@ -16,6 +16,9 @@ const styles = StyleSheet.create({
     height: '100%',
     marginTop: 15,
   },
+  homeHeader: {
+    height: 110,
+  },
 });
 
 export default styles;

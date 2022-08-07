@@ -1,11 +1,12 @@
+import { Box } from 'native-base';
 import React from 'react';
-import { Text, SafeAreaView } from 'react-native';
+import Colors from '../../theme/colors';
 
 const HomeScreen = () => {
   return (
-    <SafeAreaView>
-      <Text>Home Screen</Text>
-    </SafeAreaView>
+    <Box h="33%" pt={100} bg={Colors.darkBlue}>
+      Home
+    </Box>
   );
 };
 

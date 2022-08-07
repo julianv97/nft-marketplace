@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen, CartScreen, LikesScreen, SettingsScreen } from '../../screens';
-import { TabBarItem, StatusBar } from '../../components';
+import { Avatar, Logo, TabBarItem, StatusBar } from '../../components';
 import RootStackParamList, { Screens } from '../../types/navigation';
 import Icons from '../../types/icons';
 import styles from './styles';
@@ -17,7 +17,11 @@ const ContentNavigator = () => {
       <NavigationContainer>
         <Tab.Navigator
           screenOptions={() => ({
-            headerShown: false,
+            headerTitle: '',
+            headerStyle: styles.homeHeader,
+            headerTransparent: true,
+            headerLeft: () => <Logo />,
+            headerRight: () => <Avatar />,
             tabBarShowLabel: false,
             tabBarStyle: styles.tabBar,
           })}
