@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { HomeScreen, CartScreen, LikesScreen, SettingsScreen } from '../../screens';
+import { HomeScreen, CartScreen, LikesScreen, ProfileScreen } from '../../screens';
 import { Avatar, Logo, TabBarItem, StatusBar } from '../../components';
 import RootStackParamList, { Screens } from '../../types/navigation';
 import Icons from '../../types/icons';
@@ -57,11 +57,11 @@ const ContentNavigator = () => {
             }}
           />
           <Tab.Screen
-            name={Screens.SETTINGS}
-            component={SettingsScreen}
+            name={Screens.PROFILE}
+            component={ProfileScreen}
             options={{
               tabBarIcon: ({ focused }) => (
-                <TabBarItem icon={Icons.SETTINGS} color={focused ? Colors.white : Colors.gray} />
+                <TabBarItem icon={Icons.PROFILE} color={focused ? Colors.white : Colors.gray} />
               ),
               tabBarItemStyle: styles.tabBarItem,
             }}

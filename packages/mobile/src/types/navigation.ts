@@ -2,14 +2,14 @@ export enum Screens {
   CART = 'Cart',
   HOME = 'Home',
   LIKES = 'Likes',
-  SETTINGS = 'Settings',
+  PROFILE = 'Profile',
 }
 
 type RootStackParamList = {
   Cart: undefined;
   Home: undefined;
   Likes: undefined;
-  Settings: undefined;
+  Profile: undefined;
 };
 
 export default RootStackParamList;

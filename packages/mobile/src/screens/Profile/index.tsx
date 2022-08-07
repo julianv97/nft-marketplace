@@ -1,12 +1,12 @@
 import React from 'react';
 import { Text, SafeAreaView } from 'react-native';
 
-const SettingsScreen = () => {
+const ProfileScreen = () => {
   return (
     <SafeAreaView>
-      <Text>Settings Screen</Text>
+      <Text>Profile Screen</Text>
     </SafeAreaView>
   );
 };
 
-export default SettingsScreen;
+export default ProfileScreen;
