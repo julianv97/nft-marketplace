@@ -1,9 +1,9 @@
 import React from 'react';
 import { View } from 'react-native';
-import { Box, Image, Avatar, Text, Pressable, Flex } from 'native-base';
+import { Box, Image, Avatar, Text, Flex } from 'native-base';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import styles from './styles';
-import Colors from '../../theme/colors';
+import BidButton from '../BidButton';
 
 interface Props {
   item: any;
@@ -32,11 +32,7 @@ const NftCard: React.FC<Props> = ({ item }) => {
             <MaterialCommunityIcons name="ethereum" size={20} color="black" />
             <Text>{item.price}</Text>
           </Flex>
-          <Pressable style={styles.button}>
-            <Text alignSelf="center" color={Colors.white}>
-              Place a bid
-            </Text>
-          </Pressable>
+          <BidButton />
         </Box>
       </Box>
     </Box>

@@ -34,13 +34,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 5,
   },
-  button: {
-    backgroundColor: Colors.darkGray,
-    width: 100,
-    paddingVertical: 10,
-    borderRadius: 100,
-    marginRight: 20,
-  },
 });
 
 export default styles;
