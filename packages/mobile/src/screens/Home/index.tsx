@@ -3,8 +3,7 @@ import { Box, Text } from 'native-base';
 import { FlatList } from 'react-native';
 import Colors from '../../theme/colors';
 import NFTData from '../../data/mock';
-import NftCard from '../../components/NftCard';
-import HomeGreetings from '../../components/HomeGreeting';
+import { NftCard, HomeGreetings } from '../../components';
 import styles from './styles';
 
 const HomeScreen = () => {
