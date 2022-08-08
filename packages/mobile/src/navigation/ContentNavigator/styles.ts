@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   homeHeader: {
-    height: 110,
+    height: 120,
   },
 });
 

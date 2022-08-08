@@ -5,6 +5,7 @@ const styles = StyleSheet.create({
     width: 90,
     height: 30,
     marginLeft: 10,
+    marginTop: 30,
   },
 });
 
