@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     width: '100%',
     paddingLeft: 8,
     position: 'absolute',
-    top: '60%',
+    top: '54%',
     zIndex: 100,
   },
   image: {
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     position: 'absolute',
-    top: '60%',
+    top: '54%',
     left: 240,
     backgroundColor: Colors.white,
     width: 90,
@@ -33,6 +33,13 @@ const styles = StyleSheet.create({
     shadowColor: '#000',
     borderRadius: 10,
     padding: 5,
+  },
+  button: {
+    backgroundColor: Colors.darkGray,
+    width: 100,
+    paddingVertical: 10,
+    borderRadius: 100,
+    marginRight: 20,
   },
 });
 

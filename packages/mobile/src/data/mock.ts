@@ -163,20 +163,6 @@ const NFTData = [
         image: assets.person04,
         date: 'December 31, 2019 at 3:50 PM',
       },
-      {
-        id: 'BID-64',
-        name: 'Siti Nurhaliza',
-        price: 21.25,
-        image: assets.person02,
-        date: 'December 31, 2019 at 3:50 PM',
-      },
-      {
-        id: 'BID-65',
-        name: 'Kaitlyn Lee',
-        price: 7.25,
-        image: assets.person02,
-        date: 'December 31, 2019 at 3:50 PM',
-      },
     ],
   },
   {
