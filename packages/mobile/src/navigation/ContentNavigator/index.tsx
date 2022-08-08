@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { Box } from 'native-base';
 import { HomeScreen, CartScreen, LikesScreen, ProfileScreen } from '../../screens';
 import { Avatar, Logo, TabBarItem, StatusBar } from '../../components';
 import RootStackParamList, { Screens } from '../../types/navigation';
@@ -18,10 +19,9 @@ const ContentNavigator = () => {
         <Tab.Navigator
           screenOptions={() => ({
             headerTitle: '',
-            headerStyle: styles.homeHeader,
-            headerTransparent: true,
             headerLeft: () => <Logo />,
             headerRight: () => <Avatar />,
+            headerBackground: () => <Box bg={Colors.darkBlue} style={styles.homeHeader} />,
             tabBarShowLabel: false,
             tabBarStyle: styles.tabBar,
           })}
